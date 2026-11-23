@@ -1,0 +1,123 @@
+[
+    {
+      "question": "How is inpatient hospital facility care paid after deductible?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "categories[4]"
+      ],
+      "reference_text_contains": [
+        "Inpatient Hospital Facility"
+      ]
+    },
+    {
+      "question": "What is the MDLIVE urgent care visit cost share?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "categories[1]"
+      ],
+      "reference_text_contains": [
+        "MDLIVE Urgent Care"
+      ]
+    },
+    {
+      "question": "What is the family in-network deductible?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Allergy Treatment/Injections by a Primary Care Physician?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[0]"
+      ],
+      "reference_text_contains": [
+        "Allergy Treatment/Injections by a Primary Care Physician"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Allergy Treatment/Injections by a Specialty Care Physician?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[0]"
+      ],
+      "reference_text_contains": [
+        "Allergy Treatment/Injections by a Specialty Care Physician"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Chiropractic Care Services?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[16]"
+      ],
+      "reference_text_contains": [
+        "Chiropractic Care Services"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Advanced Cellular Therapy Product?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[22]"
+      ],
+      "reference_text_contains": [
+        "Advanced Cellular Therapy Product"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Air Ambulance?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[9]"
+      ],
+      "reference_text_contains": [
+        "Air Ambulance"
+      ]
+    },
+    {
+      "question": "What do I pay in-network for Allergy Serum (dispensed by Primary Care Physician in the office)?",
+      "accountNumber": "00001",
+      "productNumber": "PROD001",
+      "expected_sectionNames": [
+        "medicalBenefits"
+      ],
+      "expected_path_contains": [
+        "medicalBenefits.medical.tiers[0].categories[0]"
+      ],
+      "reference_text_contains": [
+        "Allergy Serum (dispensed by Primary Care Physician in the office)"
+      ]
+    }
+  ]
+  

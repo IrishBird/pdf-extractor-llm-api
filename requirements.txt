@@ -1,0 +1,8 @@
+uvicorn==0.27.0
+fastapi==0.109.2
+boto3==1.34.70
+pytz
+pymongo
+langchain_openai
+langgraph
+pydantic
